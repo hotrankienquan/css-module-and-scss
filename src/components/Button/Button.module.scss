@@ -1,0 +1,29 @@
+.btn {
+  font-size: 16px;
+  padding: 8px;
+  background-color: #ccc;
+  color: black;
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    background-color: red;
+  }
+}
+.active {
+  background-color: orange;
+}
+.bigBtn {
+  font-size: 50px;
+}
+
+.primary {
+  background-color: blue;
+}
+.d-flex {
+  display: flex;
+}
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+
+}
